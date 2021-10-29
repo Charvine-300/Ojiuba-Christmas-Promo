@@ -130,6 +130,7 @@ body {
 
 /*==========  Element Rules  ==========*/
 a {
+    color: hsl(46, 83%, 88%) !important;
     text-decoration: none !important;
 }
 
