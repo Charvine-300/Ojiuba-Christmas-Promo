@@ -1,0 +1,262 @@
+:root {
+    --o-header-font-family: "Josefin Sans";
+    --o-body-font-family: "Alata";
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(46, 83%, 88%) !important;
+}
+
+
+
+/*==========  ID Rules  ==========*/
+#footer-wrapper {
+    width: 80%;
+    padding: 3% 0%;
+    margin: 0% auto;
+}
+
+#header-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 90px;
+}
+
+.logo-container {
+    padding: 3%;
+    width: fit-content;
+    height: fit-content;
+}
+
+#flexbox-wrapper {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10% auto;
+    flex-direction: column;
+}
+
+#footer-wrapper h2 {
+    font-size: 30px !important;
+}
+
+
+/*==========  Class Rules  ==========*/
+.carousel {
+    border-bottom: 5px solid #411D2B;
+}
+.social-logos {
+    width: 30px;
+    height: 30px;
+}
+
+.social-platforms {
+    margin: 0px auto;
+    padding: 2% 0%;
+}
+
+.promo-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+    flex-direction: column;
+}
+
+.photos-flexbox {
+    width: 100%;
+    display: flex;
+    margin: 5% auto;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: row;
+}
+
+.info-box {
+    width: 100%;
+}
+
+.promo-photos {
+    width: 40%;
+    margin: auto;
+    height: 200px;
+    border: 3px solid #411D2B;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.absolute {
+    margin: 20% 30%;
+    position: absolute;
+}
+
+.message-box {
+    width: 90%;
+    height: 50%;
+    margin: 20% 5%;
+    position: absolute;
+    height: fit-content;
+}
+
+.slideshow-section {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.champagne-gold {
+    width: 10%;
+    height: 100px;
+    left: 1357px;
+    top: 985.97px;
+    margin: 0% auto;
+    filter: blur(20px);
+    transform: rotate(55deg);
+    background: rgba(150, 74, 93, 0.8);
+}
+
+.message-box p {
+    font-size: 25px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-top: 0px !important;
+    font-family: var(--o-header-font-family);
+}
+
+.social-platforms h1 {
+    font-size: 20px !important;
+}
+
+/*==========  Element Rules  ==========*/
+a {
+    text-decoration: none !important;
+}
+
+header {
+    width: 100%;
+    margin: 0% auto;
+    height: fit-content;
+    background-color:  #411D2B;
+}
+
+footer {
+    width: 100%;
+    margin: 0% auto;
+    height: fit-content;
+    background-color:  #411D2B;
+}
+
+h2 {
+    font-size: 40px !important;
+    text-align: center;
+    color: hsl(46, 83%, 88%);
+    font-family: var(--o-body-font-family);
+}
+
+h1 {
+    font-size: 30px;
+    display: inline;
+    margin-inline-start: 5px;
+    text-transform: uppercase;
+    color: hsl(46, 83%, 88%);
+    font-family: var(--o-header-font-family);
+}
+
+p {
+    font-size: 30px;
+    color: #411D2B;
+    text-align: center;
+    margin-top: 60px !important;
+    font-family: var(--o-header-font-family);
+}
+
+
+/*==========  Animation and Pseudo Rules  ==========*/
+
+
+
+/*==========  Media Queries Rules  ==========*/
+@media only screen and (orientation: landscape) {
+   h2 {
+       font-size: 70px !important;
+   }
+
+   .message-box p {
+       font-size: 35px;
+   }
+
+   .promo-flexbox {
+       flex-direction: row;
+   }
+
+   .photos-flexbox {
+       width: 45%;
+       margin: 5% auto;
+   }
+
+   .info-box {
+       width: 45%;
+       margin: 5% auto;
+   }
+
+   #footer-wrapper h2 {
+        text-align: left;
+   }
+
+   .social-platforms {
+       margin: 0%;
+       margin-right: auto;
+   }
+
+}
+
+@media only screen and (min-width: 1050px) {
+    .logo-container {
+        padding-bottom: 2%
+    }
+
+    .carousel {
+        max-height: 700px;
+        overflow: hidden;
+    }
+
+    .height {
+        height: 100%;
+    } 
+
+    .message-box {
+        margin-top: 12%;
+    }
+
+    h2 {
+        font-size: 90px !important;;
+    }
+    
+    #flexbox-wrapper {
+        width: 70%;
+        margin: 5% auto;
+    }
+
+    .promo-photos {
+        height: 230px;
+    }
+
+    .info-box {
+        width: 30%;
+    }
+
+    .info-box p {
+        text-align: left;
+    }
+
+    #footer-wrapper {
+        padding: 2% 0%;
+    }
+
+    .social-platforms {
+        padding:1% 0%;
+    }
+}
