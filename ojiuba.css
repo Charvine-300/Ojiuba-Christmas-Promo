@@ -1,7 +1,4 @@
-:root {
-    --o-header-font-family: "Josefin Sans";
-    --o-body-font-family: "Alata";
-}
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 body {
     margin: 0px;
@@ -123,7 +120,7 @@ body {
     text-align: center;
     color: hsl(0, 0%, 100%);
     margin-top: 0px !important;
-    font-family: var(--o-header-font-family);
+    font-family: "Josefin Sans";
 }
 
 .social-platforms h1 {
@@ -153,7 +150,7 @@ h2 {
     font-size: 40px !important;
     text-align: center;
     color: hsl(46, 83%, 88%);
-    font-family: var(--o-body-font-family);
+    font-family: "Alata";
 }
 
 h1 {
@@ -162,7 +159,7 @@ h1 {
     margin-inline-start: 5px;
     text-transform: uppercase;
     color: hsl(46, 83%, 88%);
-    font-family: var(--o-header-font-family);
+    font-family: "Alata";
 }
 
 p {
@@ -170,12 +167,8 @@ p {
     color: #411D2B;
     text-align: center;
     margin-top: 60px !important;
-    font-family: var(--o-header-font-family);
+    font-family: "Josefin Sans";
 }
-
-
-/*==========  Animation and Pseudo Rules  ==========*/
-
 
 
 /*==========  Media Queries Rules  ==========*/
